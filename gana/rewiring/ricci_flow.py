@@ -55,7 +55,10 @@ def stable_softmax(x, tau=1.0):
 
 class SDRF:
     """
-    stochastic discrete ricci flow
+    implementation of stochastic discrete ricci flow
+
+    UNDERSTANDING OVER-SQUASHING AND BOTTLENECKS ON GRAPHS VIA CURVATURE
+    https://arxiv.org/pdf/2111.14522.pdf
 
     C stands for curvature
     """

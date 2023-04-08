@@ -2,6 +2,7 @@ from collections import deque
 import numpy as np
 import networkx as nx
 
+
 def strong_collapse(g):
     """
     calculates persistent diagrams of a graph
